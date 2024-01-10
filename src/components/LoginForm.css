@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+  }
+
+  .container > * {
+    margin: 10px;
+  }
+
+  .container img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
